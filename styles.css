@@ -1,0 +1,499 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.upper-nav {
+  padding: 0.7rem 0;
+  background-color: #ffe6cc;
+}
+
+.upper-nav ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.upper-nav li {
+  margin-left: 1.2rem;
+}
+
+.upper-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+header {
+  height: 44rem;
+  background-image: url(/images/VictoryDance-MainHero-Desktop-80.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  top: 0;
+  position: sticky;
+}
+
+.container:hover {
+  background-color: white;
+}
+
+.logo {
+  height: 4.5rem;
+  width: 6rem;
+  padding-left: 1rem;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+header ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+header li {
+  padding-left: 2rem;
+  text-align: center;
+}
+
+header a:hover {
+  color: #455a64;
+  border-bottom: solid;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  padding-left: 22rem;
+}
+
+.log-button {
+  background-color: white;
+  border: solid 0.01rem;
+  padding: 0.3rem 1rem;
+  border-radius: 15px;
+}
+
+.log-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.get-button {
+  background-color: black;
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 15px;
+}
+
+.get-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.title {
+  padding-top: 3rem;
+  padding-left: 9rem;
+}
+
+.title h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.description {
+  width: 29rem;
+  padding-left: 9rem;
+}
+
+.description p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.qr-description {
+  margin-left: 9rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.app-qr {
+  height: 8rem;
+  width: 8rem;
+  margin-left: 9rem;
+}
+
+.app-qr img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.illustration {
+  margin: 6rem 5rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.icon-description {
+  margin: auto 3rem;
+  text-align: center;
+}
+
+.icon-description h3 {
+  font-size: 1rem;
+}
+
+.icon {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+}
+
+.app-details {
+  display: flex;
+  justify-content: center;
+}
+
+.app-browser {
+  width: 26rem;
+}
+
+.app-browser img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.app-browser-description {
+  width: 30rem;
+  margin-top: 8rem;
+  margin-left: 3rem;
+}
+
+.app-browser-description h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.app-browser-description p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+.app-browser-description a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border: solid 0.08rem;
+}
+
+.app-browser-description a:hover {
+  background-color: white;
+  color: black;
+}
+
+section {
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+section h1 {
+  font-size: 3.4rem;
+  font-weight: bold;
+  margin-bottom: 1.7rem;
+}
+
+section p {
+  font-size: 1.2rem;
+}
+
+.offer {
+  background-color: #fcedda;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.offer-description {
+  width: 29rem;
+}
+
+.offer-description h1 {
+  margin: 0;
+  font-size: 3.6rem;
+}
+
+.offer-description p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.offer-description ul {
+  list-style: none;
+  line-height: 3rem
+}
+
+.offer-description .offer-qr {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.offer .app-qr {
+  margin-left: 0;
+}
+
+.offer-image {
+  width: 27rem;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.offer-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.terms {
+  margin: 6rem 10rem;
+}
+
+.terms a {
+  text-decoration: none;
+  color: #455a64;
+}
+
+.community {
+  font-size: 2rem;
+  margin-left: 10rem;
+  margin-bottom: 4rem;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.app-store {
+  margin: 0 1.4rem;
+  width: 28.5rem;
+  border: solid 0.04rem lightgrey;
+  padding-bottom: 3rem;
+  margin-bottom: 10rem;
+}
+
+.review-image {
+  width: 28.5rem;
+}
+
+.review-image img {
+  width: 100%;
+}
+
+.community-msg {
+  margin: 0 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.community-msg h3 {
+  font-size: 2rem;
+}
+
+.community-msg p {
+  line-height: 1.5rem;
+}
+
+.community-msg a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 1.5rem;
+  border: solid 0.01rem lightgray;
+}
+
+.community-msg a:hover {
+  color: white;
+  background-color: black;
+}
+
+.app-store-link{
+  margin-top: 5rem;
+}
+
+.play-store-link {
+  margin-top: 1rem;
+}
+
+.bill-pay {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.pay-image {
+  width: 28rem;
+  padding: 0 3rem;
+}
+
+.pay-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.pay-description {
+  width: 28rem;
+}
+
+.pay-description h1 {
+  font-size: 3rem;
+}
+
+.pay-description p {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.pay-description .app-qr {
+  margin-left: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5rem 4rem;
+}
+
+.content-1 {
+  display: flex;
+}
+
+.column-1 {
+  width: 20rem;
+  margin-right: 2rem;
+}
+
+.footer-logo {
+  width: 5rem;
+  margin-top: 0.5rem;
+}
+
+.footer-logo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+select {
+  padding: 1rem 5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.social-media {
+  width: 15rem;
+}
+
+.social-media ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.social-media li {
+  align-items: center;
+  margin-right: 0.8rem;
+}
+
+.social-media a {
+  display: inline-block;
+  background-color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.social-media svg {
+  width: 70%;
+}
+
+.column-lists {
+  width: 20rem;
+}
+
+.column-lists ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.column-lists a {
+  text-decoration: none;
+  color: white;
+  line-height: 2.2rem;
+}
+
+.column-lists a:hover {
+  color: #455a64;
+}
+
+.content-2{
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-2 .column-1 {
+  width: 80rem;
+  margin-right: 0;
+}
+
+.content-2 p {
+  font-size: 0.78rem;
+}
+
+.content-2 .column-2 {
+  width: 35rem;
+}
+
+.content-2 ul {
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.content-2 li {
+  margin-right: 1.2rem; 
+}
+
+.content-2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem;
+}
